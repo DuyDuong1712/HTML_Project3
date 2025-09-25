@@ -414,3 +414,92 @@ a {
 .about-content__btn {
     margin-top: 38px;
 }
+
+/* ===================== Team ========================== */
+.team {
+    padding: 85px 0;
+    background-color: #FFF;
+}
+
+.team-header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team__btn {
+    margin-top: 38px;
+}
+
+.team-list {
+    margin-top: 70px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+
+    align-items: stretch;
+}
+
+.team-item__img-bg {
+    border-radius: 6px;
+    background: #EAF6FF;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.team-item__thumb {
+    height: 290px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+
+    transition: all 0.3s ease;
+}
+
+.team-item:hover .team-item__thumb {
+    transform: scale(1.1);
+}
+
+.team-item__name {
+    color: #10375C;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.team-item__desc {
+    color: #575F66;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.86;
+}
+
+.team__control {
+    margin-top: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.control__btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    border: 1px solid #575F66;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease;
+}
+
+.control__btn:hover {
+    color: #FFF;
+    background-color: #2E80CE;
+}
