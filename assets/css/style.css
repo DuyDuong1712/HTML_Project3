@@ -503,3 +503,52 @@ a {
     color: #FFF;
     background-color: #2E80CE;
 }
+
+/* ====================== Install ======================== */
+.install {
+    padding: 85px 0;
+
+}
+
+.install__inner {
+    height: 427px;
+    border-radius: 4px;
+    background: #2E80CE;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+
+    position: relative;
+}
+
+
+.install_img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    max-width: 489px;
+    color: #FFF;
+}
+
+.install__desc {
+    color: #FFF;
+}
+
+.install-row {
+    margin-top: 38px;
+    
+    display: flex;
+    column-gap: 28px;
+}
