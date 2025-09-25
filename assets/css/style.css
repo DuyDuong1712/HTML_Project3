@@ -288,3 +288,73 @@ a {
 .service__btn {
     margin-top: 55px;
 }
+
+/* =================== WORKS ======================= */
+.works {
+    padding: 100px 0;
+    background: #F6FBFF;
+}
+
+.works__desc {
+    margin-top: 18px;
+    width: 468px;
+}
+
+.work__list {
+    margin-top: 86px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.work-item {
+    padding: 43px;
+
+    border: 16px solid #EAF6FF;
+    border-radius: 4px;
+    background: #FFF;
+
+    transition: all 0.3s ease-in;
+}
+
+
+.work-item:hover {
+    border-color: #2E80CE;
+
+    position: relative;
+    bottom: 16px;
+}
+
+.work-item__heading {
+    margin-top: 18px;
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.work-item__desc {
+    margin-top: 28px;
+
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.work-item__more {
+    display: inline-block;
+    margin-top: 18px;
+
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.work-item:hover .work-item__more {
+    color: #2E80CE;
+    font-weight: 400;
+    /* text-shadow: 1px 0 0 #2E80CE; */
+}
