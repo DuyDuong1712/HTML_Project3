@@ -44,6 +44,23 @@ a {
     opacity: .9;
 }
 
+.section-heading {
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.section-desc {
+    color: #575F66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+
+    margin-top: 18px;
+}
+
 /* =================== HEADER =================== */
 .header {
     background: var(--header-bg);
@@ -176,4 +193,96 @@ a {
 .hero__img--small {
     width: 210px;
     height: 410px;
+}
+
+/* =================== Our Service =================== */
+.service {
+    padding: 170px 0;
+    background-color: #FFF;
+}
+
+.service__heading,
+.service__desc {
+    text-align: center;
+}
+
+.service__desc {
+    width: 468px;
+    margin: 0 auto;
+}
+
+.service__row {
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service__img {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 470px;
+    border-radius: 10px;
+    background: #FFF;
+
+    padding: 21px;
+
+    transition: all 0.3s ease 0.2s;
+}
+
+.service-item:hover {
+    position: relative;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+.service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #EFF6FD;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+
+    margin-right: 19px;
+
+    transition: all 0.3s ease 0.2s;
+}
+
+.service-item:hover .service-item__icon {
+    color: #FFF;
+    background-color: #2E80CE;
+
+}
+
+.service-item__heading {
+    color: #10375C;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.service-item__desc {
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+
+    margin-top: 8px;
+}
+
+.service__btn {
+    margin-top: 55px;
 }
