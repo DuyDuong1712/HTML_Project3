@@ -209,6 +209,8 @@ a {
 .service__desc {
     width: 468px;
     margin: 0 auto;
+
+    margin-top: 18px;
 }
 
 .service__row {
