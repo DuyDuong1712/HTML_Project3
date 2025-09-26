@@ -556,7 +556,6 @@ a {
 /* ======================= Blog ======================= */
 .blog {
     padding: 85px 0;
-
 }
 
 .blog__inner {
@@ -663,4 +662,35 @@ a {
 
 .blog-item:hover .blog-item__more {
     color: #10375C;
+}
+
+/* ==================== Apointment ==================== */
+.appointment {
+    padding: 85px 0;
+}
+
+.appointment__inner {
+    padding: 100px 0;
+    background: #F6FBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.appointment__heading::after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+
+    margin: 18px auto 0;
+}
+
+
+.appointment__desc {
+    width: 690px;
+    text-align: center;
 }
